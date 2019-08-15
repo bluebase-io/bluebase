@@ -1,0 +1,17 @@
+<mat-toolbar color="white" class='mat-elevation-z1'>
+    <img class="toolbar-logo" src="../../../assets/logo.svg"/>
+
+    <span class="example-spacer"></span>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="toApiKeyPage()">Settings</button>
+      <button mat-menu-item (click)="signout()">Sign Out</button>
+    </mat-menu>
+    <button
+      type="button"
+      aria-label="Login"
+      mat-icon-button
+      [matMenuTriggerFor]="menu"
+      >
+      <mat-icon class="account" aria-label="Login icon">account_circle</mat-icon>
+    </button>
+  </mat-toolbar>

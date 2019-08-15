@@ -1,0 +1,32 @@
+<div class="main-content-container">
+  <mat-card>
+    <h2>API Keys</h2>
+    <mat-card *ngIf="(keys$ | async)?.length == 0">
+      <p>You don't have any keys registered.</p>
+    </mat-card>
+    <mat-list>
+      <mat-list-item fxLayout="row" *ngFor="let key of (keys$ | async)">
+          <p matLine>{{ key.key }} </p>
+          <button mat-icon-button>
+            <mat-icon>delete</mat-icon>
+         </button>
+
+</mat-list-item>
+    </mat-list>
+    <form [formGroup]="myForm" novalidate (ngSubmit)="saveKey()">
+
+    <div class="form-group" fxLayout="row">
+        <mat-form-field [floatLabel]="true" fxFlex>
+          <input
+            matInput
+            type="text"
+            formControlName="key"
+          />
+        </mat-form-field>
+        <button mat-button color="primary">
+            + Add New Key
+          </button>
+      </div>
+    </form>
+  </mat-card>
+</div>

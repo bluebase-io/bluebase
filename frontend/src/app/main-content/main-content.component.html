@@ -1,0 +1,19 @@
+<div class="main-content-container">
+  <mat-card *ngIf="showCard">
+    <mat-card-header> </mat-card-header>
+    <mat-card-content>
+      <div>
+        <h3>Welcome to Bluebase</h3>
+        <button class="close" mat-icon-button (click)="toggleShowCard()">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+      <div>
+        Bluebase collects data on your Bluetooth Low Energy device fleet and
+         allows for easy piping of this data to datastores such as PostreSQL
+          and MongoDB databases.
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <app-gateway></app-gateway>
+</div>

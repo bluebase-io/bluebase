@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-title> Gateways</mat-card-title>
+  <mat-list>
+    <mat-list-item fxLayout="row" *ngFor="let gateway of (gateways$ | async)">
+      <p matLine>
+        <img class="hex-img" src="../../../assets/hexagon.svg" />{{
+          gateway.gatewayId
+        }}
+      </p>
+      <img class="node-img" src="../../../assets/nodejs.svg" /> Node.js
+      <mat-divider></mat-divider>
+    </mat-list-item>
+  </mat-list>
+</mat-card>

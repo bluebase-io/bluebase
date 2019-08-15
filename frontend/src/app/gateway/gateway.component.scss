@@ -1,0 +1,26 @@
+mat-card {
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 0px 0px;
+}
+
+.mat-list-item-content {
+  width: 100%;
+}
+
+.grey-icon svg {
+  fill: grey;
+}
+
+.node-img {
+  opacity: 0.5;
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.hex-img {
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}

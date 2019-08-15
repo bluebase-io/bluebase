@@ -1,0 +1,35 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.mat-toolbar {
+  background-color: white;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+}
+
+.header {
+  font-family: Cantarell, sans-serif;
+  font-size: 1.5em;
+  padding-left: 20px;
+  font: 500 25px/32px Cantarell, sans-serif
+}
+
+.mat-nav-list .mat-list-item {
+  font-family: Cantarell, sans-serif;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

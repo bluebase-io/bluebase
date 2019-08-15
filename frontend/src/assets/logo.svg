@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="57.700806mm"
+   height="15.484425mm"
+   viewBox="0 0 57.700806 15.484425"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8507295"
+     inkscape:cx="74.515328"
+     inkscape:cy="43.534726"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1853"
+     inkscape:window-height="1016"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-53.017461,-48.014484)">
+    <g
+       id="g95"
+       transform="matrix(0.04207724,0,0,0.04207724,53.017461,48.014484)">
+      <path
+         id="path78"
+         d="M 184,296 8,232 v 64 l 176,64 176,-64 v -64 z m 0,0"
+         inkscape:connector-curvature="0"
+         style="fill:#cce4ff" />
+      <path
+         id="path80"
+         d="m 184,168 176,64 V 72 L 184,8 Z m 0,0"
+         inkscape:connector-curvature="0"
+         style="fill:#cce4ff" />
+      <path
+         id="path82"
+         d="m 362.73437,64.480469 -176,-64 c -1.76562,-0.640625 -3.70312,-0.640625 -5.46875,0 l -175.999995,64 C 2.105469,65.632812 0,68.640625 0,72 v 224 c 0,3.35937 2.105469,6.36719 5.265625,7.51953 l 175.999995,64 C 182.15234,367.83984 183.07031,368 184,368 c 0.92969,0 1.84766,-0.16016 2.73437,-0.48047 l 176,-64 C 365.89453,302.36719 368,299.35937 368,296 V 72 c 0,-3.359375 -2.10547,-6.367188 -5.26563,-7.519531 z M 352,220.57422 192,162.39062 V 19.425781 L 352,77.601562 Z M 184,176.51172 248.59375,200 184,223.48828 119.40625,200 Z m -88,32 L 160.58594,232 96,255.48828 31.40625,232 Z m 88,32 L 248.59375,264 184,287.48828 119.40625,264 Z M 272,255.48828 207.41406,232 272,208.51172 336.59375,232 Z M 176,19.425781 V 162.39844 L 16,220.58594 V 77.601562 Z M 184,351.48828 16,290.39844 v -46.97266 l 165.26562,60.09375 C 182.15234,303.83984 183.07031,304 184,304 c 0.92969,0 1.84766,-0.16016 2.73437,-0.48047 L 352,243.42578 v 46.97266 z m 0,0"
+         inkscape:connector-curvature="0"
+         style="fill:#007aff" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="72.193451"
+       y="59.819939"
+       id="text99"><tspan
+         sodipodi:role="line"
+         id="tspan97"
+         x="72.193451"
+         y="59.819939"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;stroke-width:0.26458332">Bluebase</tspan></text>
+  </g>
+</svg>

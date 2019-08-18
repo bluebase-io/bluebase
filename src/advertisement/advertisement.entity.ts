@@ -1,6 +1,6 @@
-import { ServiceData } from "./service-data.entity";
-import { ManufacturerData } from "./manufacturer-data.entity";
-import { Entity, Column, PrimaryGeneratedColumn, TreeChildren } from "typeorm";
+import { ServiceData } from './service-data.entity';
+import { ManufacturerData } from './manufacturer-data.entity';
+import { Entity, Column, PrimaryGeneratedColumn, TreeChildren } from 'typeorm';
 
 @Entity()
 export class Advertisement {

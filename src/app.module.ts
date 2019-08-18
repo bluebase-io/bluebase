@@ -1,7 +1,7 @@
 import { GatewayKeyModule } from './gateway-key/gateway-key.module';
 import { GatewayModule } from './gateway/gateway.module';
-import { ManufacturerData } from './advertisement/manufacturer-data.model';
-import { ServiceData } from './advertisement/service-data.model';
+import { ManufacturerData } from './advertisement/manufacturer-data.entity';
+import { ServiceData } from './advertisement/service-data.entity';
 import { Gateway } from './gateway/gateway.entity';
 import { MacAddress } from './gateway/mac-address.entity';
 import { GatewayKey } from './gateway-key/gateway-key.entity';
@@ -17,6 +17,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { ConfigModule } from './config/config.module';
+import { EddystoneData } from './advertisement/eddystone.entity';
 
 function DatabaseOrmModule(): DynamicModule {
   const config = new ConfigService(`${process.env.NODE_ENV}.env`);
@@ -31,13 +32,14 @@ function DatabaseOrmModule(): DynamicModule {
       Gateway,
       ServiceData,
       ManufacturerData,
+      EddystoneData,
     ],
-    synchronize: false,
+    synchronize: true,
     host: config.getTypeOrmConfigs()['TYPEORM_HOST'],
     username: config.getTypeOrmConfigs()['TYPEORM_USERNAME'],
     password: config.getTypeOrmConfigs()['TYPEORM_PASSWORD'],
     port: config.getTypeOrmConfigs()['TYPEORM_PORT'],
-    database: config.getTypeOrmConfigs()['TYPEORM_DATABASE'],
+    database: config.getTypeOrmConfigs()['TYPEORM_DATABASE']
   });
 }
 
@@ -49,9 +51,9 @@ function DatabaseOrmModule(): DynamicModule {
     DatabaseOrmModule(),
     AdvertisementModule,
     GatewayModule,
-    GatewayKeyModule,
+    GatewayKeyModule
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService]
 })
 export class AppModule {}

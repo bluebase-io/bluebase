@@ -12,6 +12,6 @@ export class ManufacturerData {
   @Column()
   data: string;
   @TreeChildren()
-  iBeacon?: iBeaconData; 
+  iBeacon?: iBeaconData[];
 
 }

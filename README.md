@@ -2,11 +2,6 @@
 
 Make Sense of your Beacons. Bluebase can aggregate data on your bluetooth low energy devices using our CLI tool or Raspberry Pi image. Easily export, visualize, dashboard and share your data.
 
-## Getting Started
-
-* [Setting up a Bluebase instance](https://bluebase.io/help/open-source/setup) (includes links to ready made Heroku images).
-* [Documentation](https://bluebase.io/help/).
-
 ## Installation
 
 ```bash
@@ -41,16 +36,15 @@ $ npm run test:cov
 ## Instructions
 
 ### Enviroment variables
-
+```
 GOOGLE_CLIENT_ID={{your google client id}}  
 GOOGLE_CLIENT_SECRET={{your google client secret}}  
 JWT_SECRET={{your jwt secret}}  
 EXPIRES_IN=3600 
-
+```
 ## Getting Help
 
 * Issues: https://github.com/bluebase-io/bluebase/issues
-
 
 ## Reporting Bugs
 
@@ -61,9 +55,7 @@ EXPIRES_IN=3600
 * Author: [Clayton Kucera](https://github.com/claytonkucera)
 
 ### Technologies used
-A back-end server stater repository, using modern technologies, such as:
- * [Nest](https://github.com/nestjs/nest) - A progressive [Node.js](http://nodejs.org) framework for building efficient and scalable server-side applications, heavily inspired by [Angular](https://angular.io).
- * [MongoDB](https://github.com/mongodb/mongo) - a NoSQL database
+The src/ directory contains a back-end server repository. It uses:
  * [TypeORM](https://typeorm.io) - most mature Object Relational Mapper (ORM) available so far, provides a support for a lot of different databases such as PostgreSQL, SQLite, and even MongoDB (NoSQL)
  * [TypeScript](https://github.com/Microsoft/TypeScript) - superset of JS which compiles to JS, providing compile-time type checking
 * [Passport](https://github.com/jaredhanson/passport) - a popular library used to implement JavaScript authentication

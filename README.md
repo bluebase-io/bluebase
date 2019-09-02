@@ -1,5 +1,5 @@
 <p align="center">
-  <img title="Redash" src='https://bluebase.io/assets/images/logo.png' width="200px"/>
+  <img title="Redash" src='https://bluebase.io/assets/images/logo.png' width="300px"/>
 </p>
 
 <h3 align="center">

@@ -1,6 +1,13 @@
-# Bluebase
+<p align="center">
+  <img title="Redash" src='https://bluebase.io/assets/images/logo.png' width="200px"/>
+</p>
 
-Make Sense of your Beacons. Bluebase can aggregate data on your bluetooth low energy devices using our CLI tool or Raspberry Pi image. Easily export, visualize, dashboard and share your data.
+<h3 align="center">
+  Make Sense of your Beacons.
+</h3>
+<p align="center">
+Bluebase can aggregate data on your bluetooth low energy devices using our CLI tool or Raspberry Pi image. Easily export, visualize, dashboard and share your data.
+</p>
 
 ## Installation
 

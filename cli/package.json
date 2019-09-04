@@ -1,0 +1,26 @@
+{
+  "name": "bluebase-cli",
+  "version": "1.0.6",
+  "description": "Command line tool for Bluebase.io.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bluebase-cli": "bin/index.js"
+  },
+  "author": "Clayton C. Kucera",
+  "license": "ISC",
+  "dependencies": {
+    "advlib": "^0.1.4",
+    "axios": "^0.19.0",
+    "bluetooth-hci-socket": "^0.5.1",
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "noble": "^1.9.1",
+    "uuid": "^3.3.3"
+  },
+  "engines": {
+    "node": "8.9.0"
+  },
+  "engineStrict": true
+}

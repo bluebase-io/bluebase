@@ -9,6 +9,10 @@
 Bluebase can aggregate data on your bluetooth low energy devices using our CLI tool or Raspberry Pi image. Easily export, visualize, dashboard and share your data.
 </p>
 
+[![npm version](https://badge.fury.io/js/bluebase-cli.svg)](https://badge.fury.io/js/bluebase-cli)
+[![license](https://img.shields.io/badge/license-BSD-green.svg)](https://github.com/bluebase-io/bluebase/blob/master/LICENSE)
+
+
 ## Installation
 
 ```bash
